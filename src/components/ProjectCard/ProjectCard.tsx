@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectCard.css';
 
-function ProjectCard({ project }: any) {
+function ProjectCard({ project }: Props) {
     const Fade = require('react-reveal/Fade');
     return (
         <Fade duration={800} bottom>
@@ -15,5 +15,12 @@ function ProjectCard({ project }: any) {
         </a>
         </Fade>
     );
+}
+interface Props {
+    project: {
+        title: string,
+        desc: string,
+        url: string
+    }
 }
 export default ProjectCard;

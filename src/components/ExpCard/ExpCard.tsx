@@ -1,7 +1,7 @@
 import React from 'react';
 import './ExpCard.css';
 
-function ExpCard({ experience }: any) {
+function ExpCard({ experience }: Props) {
     const Fade = require('react-reveal/Fade');
     return (
         <Fade duration={800} bottom>
@@ -22,5 +22,12 @@ function ExpCard({ experience }: any) {
         </div>
         </Fade>
     );
+}
+interface Props {
+    experience : {
+        role: string,
+        company: string,
+        date: string | number
+    }
 }
 export default ExpCard;
