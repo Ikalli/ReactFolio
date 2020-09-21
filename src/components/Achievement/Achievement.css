@@ -8,11 +8,12 @@
 }
 .section--achievement .achieve-title {
     font-size: 60px;
+    color: #f1f2f3;
 }
 .section--achievement .achieve-subtitle {
-    margin-top: 30px;
-    font-size: 22px;
-    color: #888888;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #c1c2c3;
     font-weight: 300;
 }
 .section--achievement .achieve-content {
