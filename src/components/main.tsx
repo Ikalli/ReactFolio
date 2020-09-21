@@ -8,6 +8,7 @@ import Achievement from './Achievement/Achievement';
 import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Experience from './Experience/Experience';
 
 function Main() {
 	return (
@@ -15,6 +16,7 @@ function Main() {
 			<Header />
 			<Hello />
 			<Skill />
+			<Experience />
 			<OpenSource />
 			<Achievement />
 			<Blog />
