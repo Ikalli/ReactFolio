@@ -60,17 +60,17 @@ export const experience = {
 			date: "test",
 			company: "test",
 			role: "test",
-		}
+		},
 		{
 			date: "test",
 			company: "test",
 			role: "test",
-		}
+		},
 		{
 			date: "test",
 			company: "test",
 			role: "test",
-		}
+		},
 		{
 			date: "test",
 			company: "test",
