@@ -1,0 +1,15 @@
+.section--exp {
+    margin-top: 50px;
+    padding: 110px 20px 0;
+}
+.section--exp .inner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.section--exp .exp-title {
+    font-size: 60px;
+    color: #f1f2f3;
+}
+.section--exp .exp-cards {
+    margin-top: 50px;
+}
