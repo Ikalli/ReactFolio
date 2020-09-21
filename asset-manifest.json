@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactFolio/static/css/main.6c17445e.chunk.css",
-    "main.js": "/ReactFolio/static/js/main.894b2e33.chunk.js",
-    "main.js.map": "/ReactFolio/static/js/main.894b2e33.chunk.js.map",
+    "main.js": "/ReactFolio/static/js/main.93d8b99b.chunk.js",
+    "main.js.map": "/ReactFolio/static/js/main.93d8b99b.chunk.js.map",
     "runtime-main.js": "/ReactFolio/static/js/runtime-main.20217e57.js",
     "runtime-main.js.map": "/ReactFolio/static/js/runtime-main.20217e57.js.map",
     "static/js/2.52faf7b5.chunk.js": "/ReactFolio/static/js/2.52faf7b5.chunk.js",
     "static/js/2.52faf7b5.chunk.js.map": "/ReactFolio/static/js/2.52faf7b5.chunk.js.map",
     "index.html": "/ReactFolio/index.html",
-    "precache-manifest.95c35ebf9068882dc7dce43b69b247ba.js": "/ReactFolio/precache-manifest.95c35ebf9068882dc7dce43b69b247ba.js",
+    "precache-manifest.a1059ea1097149bc9c09daa4d836ed89.js": "/ReactFolio/precache-manifest.a1059ea1097149bc9c09daa4d836ed89.js",
     "service-worker.js": "/ReactFolio/service-worker.js",
     "static/css/main.6c17445e.chunk.css.map": "/ReactFolio/static/css/main.6c17445e.chunk.css.map",
     "static/js/2.52faf7b5.chunk.js.LICENSE.txt": "/ReactFolio/static/js/2.52faf7b5.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.20217e57.js",
     "static/js/2.52faf7b5.chunk.js",
     "static/css/main.6c17445e.chunk.css",
-    "static/js/main.894b2e33.chunk.js"
+    "static/js/main.93d8b99b.chunk.js"
   ]
 }
