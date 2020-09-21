@@ -14,7 +14,11 @@
     margin-top: 50px;
     font-size: 25px;
     color: #c1c2c3;
+    font-weight: 300;
 }
 .section--project .project-cards {
-
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
+    column-gap: 2%;
 }
