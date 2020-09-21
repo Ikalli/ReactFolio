@@ -56,6 +56,6 @@
         font-size: 16px;
     }
     .main .repo-cards {
-        grid-template-columns: repeat(auto-fit, 1fr);
+        grid-template-columns: repeat(auto-fit, 100%);
     }
 }

@@ -36,6 +36,6 @@
         font-weight: 500;
     }
     .section--exp .exp-cards {
-        grid-template-columns: repeat(auto-fit, 1fr);
+        grid-template-columns: repeat(auto-fit, 100%);
     }
 }

@@ -48,6 +48,6 @@
         text-align: center;
     }
     .section--achievement .achieve-content {
-        grid-template-columns: repeat(auto-fit, 1fr);
+        grid-template-columns: repeat(auto-fit, 100%);
     }
 }

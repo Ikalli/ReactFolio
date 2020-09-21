@@ -46,4 +46,7 @@
     .section--project .project-subtitle {
         text-align: center;
     }
+    .section--project .project-cards {
+        grid-template-columns: repeat(auto-fit, 100%);
+    }
 }
