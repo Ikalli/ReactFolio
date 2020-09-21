@@ -17,8 +17,8 @@ function Blog() {
                 </div>
 
                 <div className="blog-content">
-                    {blogs.lists.map(list => {
-                        return <BlogCard blogs={list} key={list.key} />
+                    {blogs.lists.map((list, i) => {
+                        return <BlogCard blogs={list} key={i} />
                     })}
                 </div>
                 

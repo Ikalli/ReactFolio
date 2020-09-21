@@ -17,8 +17,8 @@ function Achievement() {
                 </div>
 
                 <div className="achieve-content">
-                    {achievements.lists.map(list => {
-                        return <AchievementCard achieves={list} key={list.key} />
+                    {achievements.lists.map((list, i) => {
+                        return <AchievementCard achieves={list} key={i} />
                     })}
                 </div>
 

@@ -18,8 +18,8 @@ function Skill() {
                     </div>
                     <div className="skill-icons">
                         <ul className="icons">
-                            {skills.icons.map(icon => (
-                                <li className="icon-inline" key={icon.key}>
+                            {skills.icons.map((icon, i) => (
+                                <li className="icon-inline" key={i}>
                                     <i className={icon.fontAwesome}></i>
                                     <p>{icon.text}</p>
                                 </li>
