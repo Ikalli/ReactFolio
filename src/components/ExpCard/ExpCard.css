@@ -13,12 +13,14 @@
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
 }
 .expcard-main .expcard-role {
-    font-size: 30px;
+    font-weight: 500;
 }
 .expcard-main .expcard-company {
     margin-top: 30px;
 }
 .expcard-main .expcard-date {
+    font-size: 20px;
     margin-top: 30px;
     font-weight: 300;
+    color: #c1c2c3;
 }
