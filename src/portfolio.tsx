@@ -3,14 +3,17 @@ import emoji from 'react-easy-emoji';
 export const greeting = {
 	username: 'Username',
 	title: 'Hello I\'m Username',
-	subTitle: emoji("subTitle ❤"),
+	subTitle: emoji("subtitle ❤"),
 	role: "Your role",
 	resumeLink: "Your resume link... google drive or something else",
-	// If you don't want to show this, change view to false.
+	// IMPORTANT
+	// If you don't want to show this, change view to false. DO NOT DELETE!
 	view: true
 };
 
 export const socialMediaLinks = {
+	// IMPORTANT
+	// if you don't have, change value to blank or false!! DO NOT DELETE!
 	github: 'Your github link',
 	linkedin: 'Your linkedin link',
 	email: 'your email link',
@@ -23,28 +26,30 @@ export const socialMediaLinks = {
 
 export const skills = {
 	title: emoji("I Can Do ⚡"),
-	subTitle: "A FRONT-END DEVELOPER WHO WANTS TO EXPLORE MORE TECHs & BACK-END",
+	subTitle: "subtitle for skill",
 	describeSkills: [
-		emoji("✔ Develop responsive web application"),
-		emoji("✔ Interesting in PWA(Progressive Web App) and SPA"),
-		emoji("✔ Integration of third party services such as AWS, Firebase"),
-		emoji("✔ Proficient in using Git, good communication skills"),
-		emoji("✔ Interesting in TypeScript and designing web using Redux"),
+		emoji("✔ describe first"),
+		emoji("✔ describe second"),
+		emoji("✔ describe third"),
+		emoji("✔ describe forth"),
+		emoji("✔ describe fifth"),
 	],
+	// IMPORTANT
+	// You need to find className for font-awesome icon
+	// Go to https://fontawesome.com/ and search icon
 	icons: [
-		{fontAwesome: "fab fa-html5", text: "HTML5", key: 1},
-		{fontAwesome: "fab fa-css3-alt", text: "CSS3", key: 2},
-		{fontAwesome: "fab fa-js", text: "JS", key: 3},
-		{fontAwesome: "fab fa-sass", text: "Sass", key: 4},
-		{fontAwesome: "fab fa-react", text: "React", key: 5},
-		{fontAwesome: "fab fa-aws", text: "AWS", key: 6},
+		{fontAwesome: "fab fa-html5", text: "HTML5"},
+		{fontAwesome: "fab fa-css3-alt", text: "CSS3"},
+		{fontAwesome: "fab fa-js", text: "JS"},
+		{fontAwesome: "fab fa-sass", text: "Sass"},
+		{fontAwesome: "fab fa-react", text: "React"},
+		{fontAwesome: "fab fa-aws", text: "AWS"},
 	],
 	view: true
 };
 
 export const experience = {
-	title: "Experience",
-	subTitle: "",
+	title: "Work Experience",
 	lists: [
 		{
 			date: "2018.03~",
@@ -62,33 +67,35 @@ export const openSourceProjects = {
 
 export const projects = {
 	title: emoji("Projects 💻"),
-	subTitle: "TOY PROJECTS OR OTHER BIG PROJECTS THAT I PARTICIPATED IN",
+	subTitle: "subtitle for projects",
 	list: [
 		{
-			title: "asdf",
-			desc: "blabla"
-		}, 
+			title: "Project1",
+			desc: "description"
+		},
+		{
+			title: "Project2",
+			desc: "description"
+		}
 	],
 	view: true
 }
 
 export const achievements = {
 	title: emoji("Achievements And Certifications 🏆"),
-	subTitle: "ACHIEVEMENTS, CERTIFICATIONS AND SOME COOL STUFFS THAT I HAVE DONE!",
+	subTitle: "subtitle for achievement",
 	lists: [
 		{
 			img: require("./assets/sad-icon.png"),
 			alt: "I'm sad..",
 			title: "There is no Achievement...😥",
-			desc: "I'll try harder!",
-			key: 1
+			desc: "I'll try harder!"
 		},
 		{
 			img: require("./assets/sad-icon.png"),
 			alt: "I'm sad..",
 			title: "There is no Certification...😥",
-			desc: "I'll try harder!",
-			key: 2
+			desc: "I'll try harder!"
 		},
 	],
 	view: true
@@ -96,19 +103,17 @@ export const achievements = {
 
 export const blogs = {
 	title: emoji("My Posts 📰"),
-	subTitle: "BLOG POSTS WHICH ABOUT TECHS, PROJECTS, AND DAILY LIFE!",
+	subTitle: "subtitle for posts",
 	lists: [
 		{
-			title: "Leetcode Solutions",
-			desc: "Solutions and explanations for Leetcode algorithm problems.",
-			url: "https://ikalli.tistory.com/category/Leetcode",
-			key: 1
+			title: "Your Post1",
+			desc: "Description",
+			url: "#"
 		},
 		{
-			title: "Intoduction of TensorFlow",
-			desc: "Categorize images of clothes using TensorFlow, python library. Read docs of TensorFlow and wrote codes in Google Colab.",
-			url: "https://ikalli.tistory.com/6?category=895084",
-			key: 2
+			title: "Your post2",
+			desc: "Description",
+			url: "#"
 		},
 	],
 	view: true
@@ -116,7 +121,7 @@ export const blogs = {
 
 export const contactInfo = {
 	title: "Contact To Me! 📞",
-	subTitle: "REACH OUT TO ME AND DISCUSS WITH ME! IT'S OK TO JUST SAY 'HI?'",
-	introduce: emoji("Wanna be Full-Stack Developer👨‍💻 | Working Hard, Fully Passionated!🔥 | Future Google Developer❤"),
+	subTitle: "subtitle for contact",
+	introduce: emoji("your introduce❤"),
 	view: true
 }
