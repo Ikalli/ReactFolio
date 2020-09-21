@@ -16,3 +16,26 @@
     grid-template-columns: repeat(auto-fit, 32%);
     column-gap: 2%;
 }
+
+@media screen and (max-width: 1380px) {
+    .section--exp {
+        padding: 90px 20px 0;
+    }
+    .section--exp .exp-title {
+        font-size: 45px;
+    }
+    .section--exp .exp-cards {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section--exp .exp-title {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .section--exp .exp-cards {
+        grid-template-columns: repeat(auto-fit, 1fr);
+    }
+}

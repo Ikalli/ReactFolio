@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 1380px) {
+    .section--blog {
+        padding: 90px 20px 0;
+    }
     .section--blog .blog-title {
         font-size: 45px;
     }
@@ -31,7 +34,7 @@
         font-size: 20px;
     }
     .section--blog .blog-content{
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
 @media screen and (max-width: 768px) {
@@ -42,5 +45,8 @@
     }
     .section--blog .blog-subtitle {
         text-align: center;
+    }
+    .section--blog .blog-content{
+        grid-template-columns: repeat(auto-fit, 1fr);
     }
 }

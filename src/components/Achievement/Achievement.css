@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 1380px) {
+    .section--achievement {
+        padding: 90px 20px 0;
+    }
     .section--achievement .achieve-title {
         font-size: 45px;
     }
@@ -31,7 +34,7 @@
         font-size: 20px;
     }
     .section--achievement .achieve-content {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
 
@@ -43,5 +46,8 @@
     }
     .section--achievement .achieve-subtitle {
         text-align: center;
+    }
+    .section--achievement .achieve-content {
+        grid-template-columns: repeat(auto-fit, 1fr);
     }
 }

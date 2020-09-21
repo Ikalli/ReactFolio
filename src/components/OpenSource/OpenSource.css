@@ -35,11 +35,14 @@
 }
 
 @media screen and (max-width: 1380px) {
+    .main {
+        padding: 90px 20px 0;
+    }
     .main h1 {
         font-size: 45px;
     }
     .main .repo-cards {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
 
@@ -51,6 +54,8 @@
     }
     .main a {
         font-size: 16px;
-
+    }
+    .main .repo-cards {
+        grid-template-columns: repeat(auto-fit, 1fr);
     }
 }
