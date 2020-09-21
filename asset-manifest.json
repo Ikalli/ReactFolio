@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactFolioDemo/static/css/main.6c17445e.chunk.css",
+    "main.js": "/ReactFolioDemo/static/js/main.894b2e33.chunk.js",
+    "main.js.map": "/ReactFolioDemo/static/js/main.894b2e33.chunk.js.map",
+    "runtime-main.js": "/ReactFolioDemo/static/js/runtime-main.a33faa2a.js",
+    "runtime-main.js.map": "/ReactFolioDemo/static/js/runtime-main.a33faa2a.js.map",
+    "static/js/2.52faf7b5.chunk.js": "/ReactFolioDemo/static/js/2.52faf7b5.chunk.js",
+    "static/js/2.52faf7b5.chunk.js.map": "/ReactFolioDemo/static/js/2.52faf7b5.chunk.js.map",
+    "index.html": "/ReactFolioDemo/index.html",
+    "precache-manifest.efde2dec7e1f97d1e6c9930f9da17cd8.js": "/ReactFolioDemo/precache-manifest.efde2dec7e1f97d1e6c9930f9da17cd8.js",
+    "service-worker.js": "/ReactFolioDemo/service-worker.js",
+    "static/css/main.6c17445e.chunk.css.map": "/ReactFolioDemo/static/css/main.6c17445e.chunk.css.map",
+    "static/js/2.52faf7b5.chunk.js.LICENSE.txt": "/ReactFolioDemo/static/js/2.52faf7b5.chunk.js.LICENSE.txt",
+    "static/media/sad-icon.png": "/ReactFolioDemo/static/media/sad-icon.b88924d5.png",
+    "static/media/your photo.png": "/ReactFolioDemo/static/media/your photo.b9d7d448.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a33faa2a.js",
+    "static/js/2.52faf7b5.chunk.js",
+    "static/css/main.6c17445e.chunk.css",
+    "static/js/main.894b2e33.chunk.js"
+  ]
+}
