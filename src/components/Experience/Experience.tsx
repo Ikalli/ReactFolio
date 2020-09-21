@@ -1,9 +1,11 @@
 import React from 'react';
 import { experience } from '../../portfolio';
+import ExpCard from '../ExpCard/ExpCard';
+import './Experience.css';
 
 function Experience() {
     return (
-        <section className="section--exp">
+        <section className="section--exp" id="experience">
             <div className="inner">
 
                 <div className="exp-title">
