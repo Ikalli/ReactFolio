@@ -5,8 +5,8 @@
 .section--contact .contact-title {
     max-width: 1600px;
     margin: 0 auto;
-    font-size: 50px;
-    color: #1f1f1f;
+    font-size: 60px;
+    color: #f1f2f3;
 }
 .section--contact .inner {
     max-width: 1600px;
@@ -19,15 +19,15 @@
 }
 .section--contact .contact-subtitle {
     font-size: 25px;
-    color: #888888;
-    margin-top: 30px;
+    color: #c1c2c3;
+    margin-top: 50px;
     font-weight: 300;
 }
 .section--contact .contact-introduce {
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 25px;
     font-weight: 500;
-    color: #1f1f1f;
+    color: #c1c2c3;
 }
 .section--contact .profile-img {
     flex: 15% 1;
