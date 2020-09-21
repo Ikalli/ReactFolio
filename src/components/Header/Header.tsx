@@ -22,7 +22,7 @@ function Header() {
 
 				<div className="header-logo">
 					<span>&lt;</span>
-					<a href="/">{greeting.username}</a>
+					<a href="#">{greeting.username}</a>
 					<span>/&gt;</span>
 				</div>
 				
