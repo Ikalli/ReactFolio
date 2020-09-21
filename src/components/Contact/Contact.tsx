@@ -14,8 +14,8 @@ function Contact() {
             </div>
             <div className="inner">
                 
-                <div className="img-ikalli">
-                    <img src={require("../../assets/Ikalli.jpg")} alt="happy Ikalli" />
+                <div className="profile-img">
+                    <img src={require("../../assets/your photo.png")} alt="profile photo" />
                 </div>
                 <div className="wrapper-inner">
                     <div className="contact-subtitle">
@@ -23,9 +23,6 @@ function Contact() {
                     </div>
                     <div className="contact-introduce">
                         <p>{contactInfo.introduce}</p>
-                    </div>
-                    <div className="contact-content">
-                        <p>I'm Open To Opportunities! 😁</p>
                     </div>
                     <div className="social-links">
                         <Social />

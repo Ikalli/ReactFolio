@@ -30,16 +30,11 @@
     font-weight: 500;
     color: #1f1f1f;
 }
-.section--contact .contact-content {
-    margin-top: 30px;
-    font-size: 22px;
-    color: #1f1f1f;
-}
-.section--contact .img-ikalli {
+.section--contact .profile-img {
     flex: 15% 1;
     text-align: right;
 }
-.section--contact .img-ikalli img {
+.section--contact .profile-img img {
     max-width: 300px;
     height: auto;
     border: 5px solid #077394;
@@ -47,7 +42,7 @@
     box-shadow: 0px 5px 12px 5px rgba(0,0,0,0.3);
 }
 
-.section--contact .img-ikalli img:hover {
+.section--contact .profile-img img:hover {
     transition: 0.2s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
 }
@@ -71,7 +66,7 @@
         display: block;
         margin-bottom: 40px;
     }
-    .section--contact .img-ikalli {
+    .section--contact .profile-img {
         margin-top: 30px;
         text-align: center;
     }
