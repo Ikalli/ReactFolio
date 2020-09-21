@@ -1,4 +1,5 @@
 .blog-card {
+    background-color: #212223;
     display: block;
     border-radius: 10px;
     cursor: pointer;
@@ -11,17 +12,22 @@
 .blog-card:hover {
     transition: 0.4s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
-    background-color: #077394;
-    color: #ffffff;
+    background-color: #4a4b4c;
 }
 .blog-card .blog-card-title {
     font-size: 25px;
+    color: #f1f2f3;
     font-weight: 500;
 }
 .blog-card .blog-card-desc {
     margin-top: 20px;
     font-size: 20px;
-    color: #888888;
+    color: #c1c2c3;
+    font-weight: 300;
+    -webkit-box-orient: vertical;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
 }
 
 @media screen and (max-width: 1380px) {
