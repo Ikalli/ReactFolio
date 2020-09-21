@@ -8,7 +8,7 @@ function Skill() {
         <section className="section--skill" id="skills">
             <div className="inner">
 
-                <Fade right duration={1000}>
+                <Fade left duration={800}>
                 <div className="wrapper">
                     <div className="skill-title">
                         <p>{skills.title}</p>
@@ -32,9 +32,9 @@ function Skill() {
                 </div>
                 </Fade>
 
-                <Fade left duration={1000}>
+                <Fade right duration={800}>
                 <div className="skill-image">
-                    <img src={require("../../assets/skills.svg")} alt="working ekalii" />
+                    <i className="fas fa-code"></i>
                 </div>
                 </Fade>
 
