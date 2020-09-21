@@ -1,0 +1,81 @@
+.section--contact {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+.section--contact .contact-title {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #1f1f1f;
+}
+.section--contact .inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section--contact .wrapper-inner {
+    flex: 85% 1;
+}
+.section--contact .contact-subtitle {
+    font-size: 25px;
+    color: #888888;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.section--contact .contact-introduce {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+.section--contact .contact-content {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #1f1f1f;
+}
+.section--contact .img-ikalli {
+    flex: 15% 1;
+    text-align: right;
+}
+.section--contact .img-ikalli img {
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #077394;
+    border-radius: 100%;
+    box-shadow: 0px 5px 12px 5px rgba(0,0,0,0.3);
+}
+
+.section--contact .img-ikalli img:hover {
+    transition: 0.2s ease-out;
+    box-shadow: 0 4px 8px rgba(38,38,38,0.2);
+}
+
+@media screen and (max-width: 1380px) {
+    .section--contact .contact-title {
+        font-size: 45px;
+    }
+    .section--contact .contact-subtitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section--contact .contact-title {
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .section--contact .inner {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .section--contact .img-ikalli {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .section--contact .wrapper-inner {
+        text-align: center;
+    }
+}

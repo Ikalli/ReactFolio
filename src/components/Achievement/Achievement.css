@@ -1,0 +1,46 @@
+.section--achievement {
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.section--achievement .inner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.section--achievement .achieve-title {
+    font-size: 60px;
+}
+.section--achievement .achieve-subtitle {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #888888;
+    font-weight: 300;
+}
+.section--achievement .achieve-content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
+    column-gap: 2%;
+}
+
+@media screen and (max-width: 1380px) {
+    .section--achievement .achieve-title {
+        font-size: 45px;
+    }
+    .section--achievement .achieve-subtitle {
+        font-size: 20px;
+    }
+    .section--achievement .achieve-content {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section--achievement .achieve-title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .section--achievement .achieve-subtitle {
+        text-align: center;
+    }
+}

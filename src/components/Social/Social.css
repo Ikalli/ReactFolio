@@ -1,0 +1,31 @@
+.social-media-links {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.social-media-links .icon-button i {
+    padding: 10px;
+    display: inline-block;
+    color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 2.6rem;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+.github i {
+    background-color: #24292e;
+}
+.linkedin i {
+    background-color: #0073b1;
+}
+.email i {
+    background-color: #ea4335;
+}
+.facebook i {
+    background-color: #4867aa;
+}
+.medium i {
+    background-color: #000000;
+}
+.github i:hover, .linkedin i:hover, .email i:hover, .facebook i:hover,  .meduim i:hover {
+    background-color: #000000;
+}

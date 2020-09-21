@@ -1,0 +1,71 @@
+.repo-card {
+    border-radius: 10px;
+    color: rgb(88, 96, 105);
+    cursor: pointer;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    padding: 30px 30px 45px 30px;
+    margin-bottom: 30px;
+}
+.repo-card:hover {
+    transition: 0.3s ease-out;
+    box-shadow: 0 4px 8px rgba(38,38,38,0.2);
+}
+.repo-card .repo-card-name {
+    display: flex;
+    align-items: center;
+}
+.repo-card .repo-card-name p {
+    color: #1f1f1f;
+    font-size: 25px;
+    margin-left: 7px;
+    font-weight: 500;
+}
+.repo-card .repo-card-desc {
+    margin-top: 20px;
+}
+.repo-card .repo-card-desc p {
+    font-size: 20px;
+    color: #888888;
+    font-weight: 200;
+}
+.repo-card .repo-card-stat {
+    margin-top: 30px;
+    align-content: center;
+    position: relative;
+}
+.repo-card .repo-card-stat .wrapper-left {
+    align-content: center;
+    display: flex;
+    float: left;
+}
+.repo-card .repo-card-stat .wrapper-left div {
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    align-self: center;
+}
+.repo-card .repo-card-stat .wrapper-left p {
+    margin-left: 3px;
+    margin-right: 12px;
+    font-size: 16px;
+    color: #888888;
+    font-weight: 200;
+}
+.repo-card .repo-card-stat .wrapper-right {
+    float: right;
+}
+.repo-card .repo-card-stat .wrapper-right p {
+    font-size: 16px;
+    color: #888888;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 1380px) {
+    .repo-card .repo-card-desc p {
+        font-size: 16px;
+    }
+    .repo-card .repo-card-stat .wrapper-right p {
+        font-size: 12px;
+    }
+}

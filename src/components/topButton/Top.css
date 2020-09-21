@@ -1,0 +1,26 @@
+#topButton {
+    visibility: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #077394;
+    color: white;
+    cursor: pointer;
+    padding: 20px 15px;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+}
+#topButton:hover {
+    transform: translateY(-8px);
+    transition: 0.3s ease 0s;
+}
+
+@media screen and (max-width: 768px) {
+    #topButton {
+        display: none;
+    }
+}

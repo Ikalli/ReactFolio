@@ -1,0 +1,56 @@
+.main {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.main h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+.main .repo-cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
+    column-gap: 2%;
+}
+.main a {
+    display: block;
+    width: max-content;
+    padding: 15px 30px;
+    margin: 15px auto 0;
+    border: 2px solid #077394;
+    background-color: #077394;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.main a:hover {
+    color: #077394;
+    background-color: #ffffff;
+    transition: 0.3s ease-out;
+}
+
+@media screen and (max-width: 1380px) {
+    .main h1 {
+        font-size: 45px;
+    }
+    .main .repo-cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .main a {
+        font-size: 16px;
+
+    }
+}
