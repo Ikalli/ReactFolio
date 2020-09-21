@@ -12,4 +12,7 @@
 }
 .section--exp .exp-cards {
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
+    column-gap: 2%;
 }
