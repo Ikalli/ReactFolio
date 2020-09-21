@@ -6,7 +6,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 function Project() {
     const Fade: any = require('react-reveal/Fade');
     return (
-        <section className="section--project">
+        <section className="section--project" id="project">
             <div className="inner">
 
                 <div className="project-title">
@@ -16,13 +16,11 @@ function Project() {
                     <p>{projects.subTitle}</p>
                 </div>
 
-                <Fade bottom duration={800}>
                 <div className="project-cards">
                     {projects.lists.map((list, i) => {
                         return <ProjectCard project={list} key={i} />
                     })}
                 </div>
-                </Fade>
 
             </div>
         </section>
