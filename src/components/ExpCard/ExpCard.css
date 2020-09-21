@@ -6,17 +6,19 @@
     background-color: #212223;
     color: #f1f2f3;
     font-size: 25px;
+    text-align: center;
 }
 .expcard-main:hover {
     transition: 0.3s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
 }
-.expcard-main .expcard-date {
-    
+.expcard-main .expcard-role {
+    font-size: 30px;
 }
 .expcard-main .expcard-company {
     margin-top: 30px;
 }
-.expcard-main .expcard-role {
+.expcard-main .expcard-date {
     margin-top: 30px;
+    font-weight: 300;
 }
