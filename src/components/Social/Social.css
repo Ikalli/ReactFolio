@@ -7,8 +7,8 @@
     display: inline-block;
     color: #ffffff;
     box-sizing: border-box;
-    border-radius: 2.6rem;
-    margin: 0 5px;
+    border-radius: 50%;
+    margin: 5px 5px;
     transition: 0.3s;
 }
 .github i {
@@ -23,9 +23,18 @@
 .facebook i {
     background-color: #4867aa;
 }
+.twitter i {
+    background-color: #2aa9e0;
+}
+.instagram i {
+    background-color: #a056a1;
+}
 .medium i {
     background-color: #000000;
 }
-.github i:hover, .linkedin i:hover, .email i:hover, .facebook i:hover,  .meduim i:hover {
+.stackoverflow i {
+    background-color: #f48024;
+}
+.icon-button > i:hover {
     background-color: #000000;
 }
