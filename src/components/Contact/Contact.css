@@ -34,7 +34,7 @@
     text-align: right;
 }
 .section--contact .profile-img img {
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
     border: 5px solid #077394;
     border-radius: 100%;
@@ -47,6 +47,9 @@
 }
 
 @media screen and (max-width: 1380px) {
+    .section--contact {
+        padding: 90px 20px 0;
+    }
     .section--contact .contact-title {
         font-size: 45px;
     }
