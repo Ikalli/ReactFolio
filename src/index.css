@@ -3,6 +3,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #121314;
   font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
