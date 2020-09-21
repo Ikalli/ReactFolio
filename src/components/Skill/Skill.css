@@ -68,6 +68,9 @@
     .section--skill .skill-subtitle, .section--skill .skill-desc, .section--skill .skill-icons {
         font-size: 20px;
     }
+    .section--skill .skill-image {
+        font-size: 200px;
+    }
 }
 
 @media screen and (max-width: 768px) {
