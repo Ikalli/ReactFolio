@@ -62,6 +62,9 @@
 }
 
 @media screen and (max-width: 1380px) {
+    .section--skill {
+        padding: 90px 20px 0;
+    }
     .section--skill .skill-title {
         font-size: 45px;
     }
