@@ -55,6 +55,26 @@ export const experience = {
 			date: "2018.03~",
 			company: "Google",
 			role: "Front-End Developer",
+		},
+		{
+			date: "test",
+			company: "test",
+			role: "test",
+		}
+		{
+			date: "test",
+			company: "test",
+			role: "test",
+		}
+		{
+			date: "test",
+			company: "test",
+			role: "test",
+		}
+		{
+			date: "test",
+			company: "test",
+			role: "test",
 		}
 	],
 	view: true
