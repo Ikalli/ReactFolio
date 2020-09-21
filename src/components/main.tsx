@@ -9,6 +9,7 @@ import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Experience from './Experience/Experience';
+import Project from './Project/Project';
 
 function Main() {
 	return (
@@ -18,6 +19,7 @@ function Main() {
 			<Skill />
 			<Experience />
 			<OpenSource />
+			<Project />
 			<Achievement />
 			<Blog />
 			<Contact />
