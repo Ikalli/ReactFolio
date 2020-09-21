@@ -1,7 +1,7 @@
 .section--skill {
-    margin-top: 100px;
-    padding: 0 20px;
+    padding: 110px 20px 0;
     position: relative;
+    margin-top: 50px;
 }
 .section--skill .inner {
     max-width: 1600px;
@@ -16,18 +16,18 @@
 .section--skill .skill-title {
     font-size: 60px;
     font-weight: 400;
-    color: #1f1f1f;
+    color: #f1f2f3;
 }
 .section--skill .skill-subtitle {
-    margin-top: 30px;
-    font-size: 22px;
+    margin-top: 50px;
+    font-size: 25px;
     font-weight: 300;
-    color: #888888;
+    color: #c1c2c3;
 }
 .section--skill .skill-icons {
-    font-size: 22px;
-    text-align: center;
-    color: #888888;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #c1c2c3;
 }
 .section--skill .skill-icons .icon-inline {
     display: inline-block;
@@ -42,12 +42,12 @@
     font-size: 15px;
 }
 .section--skill .skill-desc {
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 22px;
-    color: #888888;
+    color: #c1c2c3;
 }
 .section--skill .skill-desc p {
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: 300;
 }
 .section--skill .skill-icons li:hover {

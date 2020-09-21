@@ -1,13 +1,13 @@
 .main {
     max-width: 1600px;
     margin: 0 auto;
-    margin-top: 100px;
-    padding: 0 20px;
+    margin-top: 50px;
+    padding: 110px 20px 0;
 }
 .main h1 {
     font-size: 60px;
     font-weight: 400;
-    color: #1f1f1f;
+    color: #f1f2f3;
 }
 .main .repo-cards {
     margin-top: 50px;
@@ -20,17 +20,17 @@
     width: max-content;
     padding: 15px 30px;
     margin: 15px auto 0;
-    border: 2px solid #077394;
-    background-color: #077394;
+    border: 2px solid #38393a;
+    background-color: #38393a;
     text-align: center;
     font-size: 20px;
-    color: #ffffff;
+    color: #f1f2f3;
     text-decoration: none;
     border-radius: 8px;
 }
 .main a:hover {
-    color: #077394;
-    background-color: #ffffff;
+    color: #38393a;
+    background-color: #f1f2f3;
     transition: 0.3s ease-out;
 }
 

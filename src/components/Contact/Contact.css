@@ -1,7 +1,6 @@
 .section--contact {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding: 0 20px;
+    margin: 50px 0;
+    padding: 110px 20px 0;
 }
 .section--contact .contact-title {
     max-width: 1600px;
