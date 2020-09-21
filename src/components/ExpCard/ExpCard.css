@@ -24,3 +24,15 @@
     font-weight: 300;
     color: #c1c2c3;
 }
+
+@media screen and (max-width: 1380px) {
+    .expcard-main .expcard-role {
+        font-size: 22px;
+    }
+    .expcard-main .expcard-company {
+        font-size: 19px;
+    }
+    .expcard-main .expcard-date {
+        font-size: 16px;
+    }
+}

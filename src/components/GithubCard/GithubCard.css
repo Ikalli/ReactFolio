@@ -68,6 +68,9 @@
 }
 
 @media screen and (max-width: 1380px) {
+    .repo-card .repo-card-name p {
+        font-size: 22px;
+    }
     .repo-card .repo-card-desc p {
         font-size: 16px;
         -webkit-line-clamp: 2;

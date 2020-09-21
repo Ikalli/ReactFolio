@@ -2,7 +2,9 @@ import React from 'react';
 import './ExpCard.css';
 
 function ExpCard({ experience }: any) {
+    const Fade = require('react-reveal/Fade');
     return (
+        <Fade duration={800} bottom>
         <div className="expcard-main">
             <div className="inner">
                     
@@ -18,6 +20,7 @@ function ExpCard({ experience }: any) {
 
             </div>
         </div>
+        </Fade>
     );
 }
 export default ExpCard;

@@ -31,3 +31,12 @@
     color: #c1c2c3;
     -webkit-line-clamp: 2;
 }
+
+@media screen and (max-width: 1380px) {
+    .project-card-main .card-title {
+        font-size: 22px;
+    }
+    .project-card-main .card-desc {
+        font-size: 16px;
+    }
+}
