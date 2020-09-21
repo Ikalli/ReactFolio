@@ -44,9 +44,6 @@ header .icon {
 	color: #c1c2c3;
 	display: none;
 }
-header .icon a {
-	padding: 24px 0;
-}
 header .nav-menu {
 	height: 100%;
 	display: flex;
@@ -54,6 +51,7 @@ header .nav-menu {
 	justify-content: center;
 	float: right;
 	margin-right: 50px;
+	transition: 0.2s ease-out;
 }
 header .nav-menu li a {
 	padding: 20px;
@@ -103,7 +101,7 @@ header .nav-menu li a:hover, header .icon:hover {
 @media screen and (max-width: 768px) {
 	header {
 		padding: 0;
-		min-height: 80px;
+		height: 80px;
 	}
 	header .header-logo {
 		margin-left: 20px;
@@ -121,6 +119,9 @@ header .nav-menu li a:hover, header .icon:hover {
 		display: block;
 		float: right;
 		margin-right: 20px;
+	}
+	header .icon a {
+		padding: 24px 0;
 	}
 	header .nav-menu li a {
 		font-size: 22px;
@@ -143,5 +144,24 @@ header .nav-menu li a:hover, header .icon:hover {
 	}
 	header .nav-menu.responsive li:last-child {
 		padding-bottom: 20px;
+	}
+}
+@media screen and (max-width: 300px) {
+	header {
+		padding: 0;
+		height: 60px;
+	}
+	header .header-logo {
+		margin-left: 10px;
+		font-size: 30px;
+		padding: 15px 0;
+	}
+	header .icon {
+		margin-right: 10px;
+		font-size: 30px;
+		align-self: center;
+	}
+	header .icon a {
+		padding: 17px 0;
 	}
 }
