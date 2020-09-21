@@ -1,0 +1,22 @@
+.expcard-main {
+    border-radius: 10px;
+    box-shadow: 13px 13px 6px rgba(0,0,0,0.2);
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #212223;
+    color: #f1f2f3;
+    font-size: 25px;
+}
+.expcard-main:hover {
+    transition: 0.3s ease-out;
+    box-shadow: 0 4px 8px rgba(38,38,38,0.2);
+}
+.expcard-main .expcard-date {
+    
+}
+.expcard-main .expcard-company {
+    margin-top: 30px;
+}
+.expcard-main .expcard-role {
+    margin-top: 30px;
+}
