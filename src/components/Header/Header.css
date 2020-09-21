@@ -133,11 +133,15 @@ header .nav-menu li a:hover, header .icon:hover {
 	header .nav-menu.responsive {
 		display: block;
 		float: none;
-		height: 434px;
+		height: fit-content;
 		background-color: #242526;
+		margin-right: 0 !important;
 	}
 	header .nav-menu.responsive li {
 		display: block;
 		clear: both;
+	}
+	header .nav-menu.responsive li:last-child {
+		padding-bottom: 20px;
 	}
 }
