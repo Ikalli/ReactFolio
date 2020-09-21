@@ -11,8 +11,8 @@
 }
 .achieve-card .achieve-card-img img{
     display: block;
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    height: auto;
     margin: 0 auto;
 }
 .achieve-card .achieve-card-title {
@@ -38,3 +38,9 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .achieve-card .achieve-card-img img {
+        max-width: 180px;
+    }
+} 
