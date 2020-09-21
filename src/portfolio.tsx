@@ -88,14 +88,16 @@ export const openSourceProjects = {
 export const projects = {
 	title: emoji("Projects 💻"),
 	subTitle: "subtitle for projects",
-	list: [
+	lists: [
 		{
 			title: "Project1",
-			desc: "description"
+			desc: "very very very very very very very very very very very very very very long very long description for clamp testing",
+			url: "#"
 		},
 		{
 			title: "Project2",
-			desc: "description"
+			desc: "description",
+			url: "#"
 		}
 	],
 	view: true
