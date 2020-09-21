@@ -6,12 +6,11 @@
 .section--skill .inner {
     max-width: 1600px;
     display: flex;
-    flex-direction: row-reverse;
     margin: 0 auto;
 }
 .section--skill .wrapper {
     margin-left: 10px;
-    flex: 1;
+    flex: 60%;
 }
 .section--skill .skill-title {
     font-size: 60px;
@@ -55,12 +54,11 @@
     transition: 0.3s;
 }
 .section--skill .skill-image {
-    flex: 1;
-}
-.section--skill .skill-image img{
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px;
+    flex: 40%;
+    font-size: 300px;
+    color: #f1f1f1;
+    align-self: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 1380px) {
@@ -84,8 +82,10 @@
     .section--skill .skill-subtitle {
         text-align: center;
     }
+    .section--skill .skill-icons {
+        text-align: center;
+    }
     .section--skill .skill-image {
-        margin-top: 30px;
-        padding: 0 40px;
+        display: none;
     }
 }
