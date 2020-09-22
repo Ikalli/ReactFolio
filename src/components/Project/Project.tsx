@@ -4,7 +4,6 @@ import { projects } from '../../portfolio';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 function Project() {
-    const Fade: any = require('react-reveal/Fade');
     return (
         <section className="section--project" id="project">
             <div className="inner">
