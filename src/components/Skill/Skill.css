@@ -56,8 +56,17 @@
     .section--skill .skill-subtitle, .section--skill .skill-desc {
         font-size: 20px;
     }
+    .section--skill .skill-cards {
+        grid-template-columns: repeat(auto-fit, 25%);
+    }
     .section--skill .skill-image {
         font-size: 200px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .section--skill .skill-cards {
+        grid-template-columns: repeat(auto-fit, 32%);
     }
 }
 
@@ -75,5 +84,8 @@
     }
     .section--skill .skill-image {
         display: none;
+    }
+    .section--skill .skill-cards {
+        grid-template-columns: repeat(auto-fit, 50%);
     }
 }
