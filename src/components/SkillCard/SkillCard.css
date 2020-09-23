@@ -35,3 +35,12 @@
 .skill-card-main .skill-progress-bar p {
     margin: 10px 0;
 }
+
+@media screen and (max-width: 1380px) {
+    .skill-card-main .skill-icon {
+        font-size: 35px;
+    }
+    .skill-card-main .skill-text {
+        font-size: 20px;
+    }
+}
