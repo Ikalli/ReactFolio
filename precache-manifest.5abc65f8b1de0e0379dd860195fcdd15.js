@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2fb562d08e6568e0f645cc869b82dee4",
+    "revision": "4598f5447edcc2c255b0048b2bbd00a9",
     "url": "/ReactFolio/index.html"
   },
   {
-    "revision": "b56468ad89a6c0b0daed",
-    "url": "/ReactFolio/static/css/main.6c17445e.chunk.css"
+    "revision": "4da297bd85218a6f1c39",
+    "url": "/ReactFolio/static/css/main.eab916d1.chunk.css"
   },
   {
-    "revision": "4a79d3602c943ef88545",
-    "url": "/ReactFolio/static/js/2.52faf7b5.chunk.js"
+    "revision": "f0585afd58bab4c12498",
+    "url": "/ReactFolio/static/js/2.9a2180c5.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/ReactFolio/static/js/2.52faf7b5.chunk.js.LICENSE.txt"
+    "url": "/ReactFolio/static/js/2.9a2180c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b56468ad89a6c0b0daed",
-    "url": "/ReactFolio/static/js/main.93d8b99b.chunk.js"
+    "revision": "4da297bd85218a6f1c39",
+    "url": "/ReactFolio/static/js/main.bf2416cc.chunk.js"
   },
   {
     "revision": "cc897b93664c64c1287e",
