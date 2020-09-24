@@ -70,23 +70,15 @@ And you can see 6 or less repositories that you pinned.
 8. **Modify Codes if you want!**
 
 ## Deploy
-* If you don't have your github page, create or rename repository to 'username.github.io'
-* `npm run-script build` or `yarn build`
-* Create new branch in your repository
-* Push build folder in new branch
-* Go to Settings in your repository
-* Go to GitHub Pages menu, and select your build folder branch
-![build](https://user-images.githubusercontent.com/16658067/94020936-6c586e80-fdee-11ea-9a49-4a9e8c19c09b.PNG)  
-
-* But if you already have github page, install gh-pages module 
+* Install gh-pages module 
 * `npm i -D gh-pages` or `yarn add gh-pages`
 * Modify `package.json` hompage to your github page  
 
-Example: `homepage: https://[username].github.io/ReactFolio`
+Example: `homepage: https://[username].github.io/ReactFolio` 
 
 * open terminal and following instruction  
 
-`npm run build`
+`npm run deploy`
 
 * Then gh-pages branch will be automatically generated and you can see pages!!
 
@@ -124,9 +116,15 @@ If you created something cool and want to contribute, open an [Pull request](htt
 
 ## Reference
 [Github Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)  
+
 [Github GraphQL API](https://docs.github.com/en/graphql)  
+
 [DeveloperFolio](https://github.com/saadpasta/developerFolio)  
+
 [React Reveal](https://www.react-reveal.com/)  
+
 [React Easy Emoji](https://www.npmjs.com/package/react-easy-emoji)  
+
+[gh-pages](https://www.npmjs.com/package/gh-pages)
 
 ## Contributors
