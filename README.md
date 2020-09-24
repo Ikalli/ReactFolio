@@ -128,6 +128,3 @@ If you created something cool and want to contribute, open an [Pull request](htt
 [DeveloperFolio](https://github.com/saadpasta/developerFolio)  
 [React Reveal](https://www.react-reveal.com/)  
 [React Easy Emoji](https://www.npmjs.com/package/react-easy-emoji)  
-
-## Contributors
-
