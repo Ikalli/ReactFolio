@@ -123,8 +123,8 @@ But if you want to contribute to ReactFolio and make much better, look at [Issue
 If you created something cool and want to contribute, open an [Pull request](https://github.com/Ikalli/ReactFolio/pulls).
 
 ## Reference
-[Github Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
-[Github GraphQL API](https://docs.github.com/en/graphql)
-[DeveloperFolio](https://github.com/saadpasta/developerFolio)
-[React Reveal](https://www.react-reveal.com/)
-[React Easy Emoji](https://www.npmjs.com/package/react-easy-emoji)
+[Github Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)  
+[Github GraphQL API](https://docs.github.com/en/graphql)  
+[DeveloperFolio](https://github.com/saadpasta/developerFolio)  
+[React Reveal](https://www.react-reveal.com/)  
+[React Easy Emoji](https://www.npmjs.com/package/react-easy-emoji)  
