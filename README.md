@@ -1,7 +1,6 @@
-# ReactFolio
+# ReactFolio [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Ikalli/ReactFolio/blob/master/LICENSE)
 ## Nice and Clean Responsive Dark Theme Portfolio Website with React!
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Ikalli/ReactFolio/blob/master/LICENSE)
 ![캡처s](https://user-images.githubusercontent.com/16658067/94010854-70ca5a80-fde1-11ea-9241-aae8d76247fd.PNG)
 
 ## Demo Page
