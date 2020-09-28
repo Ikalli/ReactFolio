@@ -1,8 +1,14 @@
 .section--hello {
 	position: relative;
-	padding: 150px 20px 30px;
+	padding: 5vh 20px;
 	margin-top: 100px;
 	margin-bottom: 0;
+	text-align: center;
+	height: 90vh;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .section--hello .inner {
 	max-width: 1600px;
@@ -100,7 +106,7 @@
 @media screen and (max-width:768px) {
 	.section--hello {
 		margin-top: 80px;
-		padding: 50px 20px;
+		padding: 5vh 20px;
 	}
 	.section--hello .inner {
 		display: block;
@@ -110,21 +116,13 @@
 	}
 	.section--hello .text-title {
 		font-size: 36px;
-		text-align: center;
 	}
 	.section--hello .role {
 		margin-top: 30px;
-		text-align: center;
-	}
-	.section--hello .text-subtitle {
-		text-align: center;
 	}
 	.section--hello .social-links {
 		width: fit-content;
 		margin: 0 auto;
-	}
-	.section--hello .wrapper-links {
-		text-align: center;
 	}
 	.section--hello .wrapper-links > * {
 		max-width: 70%;
