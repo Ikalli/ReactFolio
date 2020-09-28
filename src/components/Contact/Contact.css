@@ -29,6 +29,9 @@
     font-weight: 500;
     color: #c1c2c3;
 }
+.section--contact .social-links {
+    margin-top: 50px;
+}
 .section--contact .profile-img {
     flex: 15% 1;
     text-align: right;
