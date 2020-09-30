@@ -66,7 +66,10 @@ REACT_APP_GITHUB_TOKEN = /your token/
 And you can see 6 or less repositories that you pinned.
 
 7. Change favicon, apple-touch-icon and other images.
-8. **Modify Codes if you want!**
+
+8. Change `public/index.html` meta tags!
+
+9. **Modify Codes if you want!**
 
 ## Deploy
 * Install gh-pages module 
