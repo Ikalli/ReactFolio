@@ -39,7 +39,7 @@
 .section--contact .profile-img img {
     max-width: 250px;
     height: auto;
-    border: 5px solid #077394;
+    border: 5px solid #212223;
     border-radius: 100%;
     box-shadow: 0px 5px 12px 5px rgba(0,0,0,0.3);
 }
