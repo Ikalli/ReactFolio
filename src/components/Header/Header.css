@@ -34,10 +34,6 @@ header .header-logo a {
 	text-decoration: none;
 	color: #ffffff;
 }
-header .header-logo a:hover {
-	color: #077394;
-	transition: 0.2s linear;
-}
 header .icon {
 	font-size: 32px;
 	text-decoration: none;
@@ -61,8 +57,8 @@ header .nav-menu li a {
 	color: #ffffff;
 }
 header .nav-menu li a:hover, header .icon:hover {
-	color: #077394;
-	transition: 0.2s ease-out;
+	border-bottom: 3px solid #c1c2c3;
+	transition: 0.1s ease-out;
 }
 
 @media screen and (max-width: 1380px) {
