@@ -6,7 +6,7 @@
     margin-bottom: 30px;
 }
 .achieve-card:hover {
-    transition: 0.2s ease-out;
+    transition: 0.3s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
 }
 .achieve-card .achieve-card-img img{
