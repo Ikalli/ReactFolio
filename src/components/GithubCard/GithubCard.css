@@ -5,10 +5,10 @@
     box-shadow: 13px 13px 6px rgba(0,0,0,0.2);
     padding: 30px 30px 45px 30px;
     margin-bottom: 30px;
+    transition: 0.3s ease-out;
 }
 .repo-card:hover {
     background-color: #4a4b4c;
-    transition: 0.3s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
 }
 .repo-card .repo-card-name {

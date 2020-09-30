@@ -7,9 +7,9 @@
     color: #f1f2f3;
     font-size: 25px;
     text-align: center;
+    transition: 0.3s ease-out;
 }
 .expcard-main:hover {
-    transition: 0.3s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
 }
 .expcard-main .expcard-role {

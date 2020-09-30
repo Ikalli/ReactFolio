@@ -3,14 +3,14 @@
     display: block;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    box-shadow: 13px 13px 6px rgba(0, 0, 0, 0.2);
     padding: 30px;
     margin-bottom: 30px;
     text-decoration: none;
     color: #1f1f1f;
+    transition: 0.3s ease-out;
 }
 .blog-card:hover {
-    transition: 0.4s ease-out;
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
     background-color: #4a4b4c;
 }
