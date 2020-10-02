@@ -20,6 +20,7 @@
     font-weight: 500;
 }
 .blog-card .blog-card-desc {
+    line-height: 1.4;
     margin-top: 20px;
     font-size: 20px;
     color: #c1c2c3;

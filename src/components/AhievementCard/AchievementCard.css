@@ -23,6 +23,7 @@
     text-align: center;
 }
 .achieve-card .achieve-card-desc {
+    line-height: 1.4;
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
