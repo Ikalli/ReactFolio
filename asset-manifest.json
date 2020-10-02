@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactFolio/static/css/main.4eb42f7f.chunk.css",
+    "main.css": "/ReactFolio/static/css/main.b91231ba.chunk.css",
     "main.js": "/ReactFolio/static/js/main.bf2416cc.chunk.js",
     "main.js.map": "/ReactFolio/static/js/main.bf2416cc.chunk.js.map",
     "runtime-main.js": "/ReactFolio/static/js/runtime-main.20217e57.js",
@@ -8,9 +8,9 @@
     "static/js/2.9a2180c5.chunk.js": "/ReactFolio/static/js/2.9a2180c5.chunk.js",
     "static/js/2.9a2180c5.chunk.js.map": "/ReactFolio/static/js/2.9a2180c5.chunk.js.map",
     "index.html": "/ReactFolio/index.html",
-    "precache-manifest.9ba8831353ba556fd4a8357bbbf0e5f6.js": "/ReactFolio/precache-manifest.9ba8831353ba556fd4a8357bbbf0e5f6.js",
+    "precache-manifest.e92b859072d4945d6ea2ca1c03c32eda.js": "/ReactFolio/precache-manifest.e92b859072d4945d6ea2ca1c03c32eda.js",
     "service-worker.js": "/ReactFolio/service-worker.js",
-    "static/css/main.4eb42f7f.chunk.css.map": "/ReactFolio/static/css/main.4eb42f7f.chunk.css.map",
+    "static/css/main.b91231ba.chunk.css.map": "/ReactFolio/static/css/main.b91231ba.chunk.css.map",
     "static/js/2.9a2180c5.chunk.js.LICENSE.txt": "/ReactFolio/static/js/2.9a2180c5.chunk.js.LICENSE.txt",
     "static/media/sad-icon.png": "/ReactFolio/static/media/sad-icon.b88924d5.png",
     "static/media/your photo.png": "/ReactFolio/static/media/your photo.b9d7d448.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.20217e57.js",
     "static/js/2.9a2180c5.chunk.js",
-    "static/css/main.4eb42f7f.chunk.css",
+    "static/css/main.b91231ba.chunk.css",
     "static/js/main.bf2416cc.chunk.js"
   ]
 }
