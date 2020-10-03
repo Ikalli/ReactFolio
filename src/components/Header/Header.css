@@ -125,6 +125,9 @@ header .nav-menu li a:hover, header .icon:hover {
 	header .menu-icon {
 		display: block;
 	}
+	header .nav-menu li a:hover, header .icon:hover {
+		border-bottom: none;
+	}
 }
 @media screen and (max-width: 768px) {
 	header .nav-menu.responsive {
